@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+// let arr = ['aa', 'zz', 'oo']
+// // for (let val of arr) {
+// //   console.log(val) // 返回值 aa zz oo
+// // }
+// // for (let index of arr.keys()) {
+// //   console.log(index) // 返回下标
+// // }
+// for (let [key,value] of arr.entries()) {
+//  console.log(key)
+//  console.log(value)
+// }
+var arr = [1,3,4,5]
+function testss(arr) {
+  arr[0], arr[arr.length-1] = arr[arr.length-1], arr[0]
+}
+console.log(arr)
+testss(arr)
+console.log(arr)
+</script>
+  
+</body>
+</html>
